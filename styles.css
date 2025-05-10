@@ -380,6 +380,14 @@
     padding: 1.5rem;
     box-shadow: var(--shadow);
   }
+
+  .message-container p {
+    text-align: left;
+  }
+
+  .message-container img {
+    max-width: 200px;
+  }
   
   .message-form {
     display: flex;
