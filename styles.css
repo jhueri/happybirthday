@@ -493,6 +493,29 @@
   .hidden {
     display: none;
   }
+
+  /* Video Section */
+  .section-title, .section-text {
+    text-align: center;
+  }
+
+  .video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  width: 560px;
+  height: 315px;
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 0.2rem;
+  box-shadow: var(--shadow);
+}
+
   
   /* Footer */
   .footer {
